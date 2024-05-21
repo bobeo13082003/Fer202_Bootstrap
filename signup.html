@@ -9,33 +9,33 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
         integrity="sha512iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>Login</title>
+    <title>Register</title>
 </head>
 
 <body>
-    <div class="login-container col-sm-4">
-        <div class="title">Login</div>
+    <div class="signup-container col-sm-4">
+        <div class="title">Signup</div>
         <div class="text">Email</div>
-        <input id="email" type='text' placeholder='Email' />
-        <input id="password" type="password" placeholder='Password' />
-        <div><button onclick="login()">Login</button></div>
+        <input id="remail" type='text' placeholder='Email' />
+        <input id="fullname" type='text' placeholder='FullName' />
+        <input id="rpassword" type="password" placeholder='Password' />
+        <div><button onclick="register()">Register</button></div>
 
         <div class="text-center">
-            Don't Have an account <a href="signup.html">Singup</a>
+            Have an account <a href="login.html">Login</a>
         </div>
+
         <div class="message" style="color: green;">
 
         </div>
+
         <div class='back'>
             <a style="text-decoration: none;" href="index.html"><i class="fa-regular fa-circle-left"></i> Go Back
                 Home</a>
         </div>
     </div>
-    <script src="login.js"></script>
-    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
-    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
-    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 
+    <script src="signup.js"></script>
 </body>
 
 </html>

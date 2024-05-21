@@ -1,0 +1,27 @@
+body {
+    background-color: rgb(63, 57, 57);
+}
+
+.carousel-inner {
+    text-align: center;
+}
+
+img.card-img-top {
+    height: 400px;
+}
+
+.card {
+    text-align: center;
+    border: none;
+}
+
+.card-columns {
+    background-color: rgb(63, 57, 57);
+    border: none;
+}
+
+.footer {
+    background-color: rgb(41, 42, 43);
+    padding: 20px;
+    color: white;
+}
